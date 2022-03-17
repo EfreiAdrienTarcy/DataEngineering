@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="admin-manjaro" name="com.tp.spark.core.Ex4InvertedIndexSpec" tests="1" errors="0" failures="1" skipped="0" time="1.29" timestamp="2022-03-04T13:22:25">
+          <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="UTF-8"/><property name="sun.arch.data.model" value="64"/><property name="sbt.supershell" value="false"/><property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/><property name="sun.boot.library.path" value="/home/admin/.jdks/corretto-11.0.14.1/lib"/><property name="sun.java.command" value="/home/admin/.local/share/JetBrains/IntelliJIdea2021.3/Scala/launcher/sbt-launch.jar early(addPluginSbtFile=&quot;&quot;&quot;/tmp/idea1.sbt&quot;&quot;&quot;) ; set ideaPort in Global := 44143 ; idea-shell"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-02-08"/><property name="java.home" value="/home/admin/.jdks/corretto-11.0.14.1"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="idea.installation.dir" value="/var/lib/snapd/snap/intellij-idea-ultimate/341"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.14.1+10-LTS"/><property name="user.name" value="admin"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/admin/.cache/JNA/temp/jna13479783871351288503.tmp"/><property name="java.vendor.version" value="Corretto-11.0.14.10.1"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.14.1"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vendor" value="Amazon.com Inc."/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.desktop" value="gnome"/><property name="java.class.path" value="/home/admin/.local/share/JetBrains/IntelliJIdea2021.3/Scala/launcher/sbt-launch.jar"/><property name="java.vm.vendor" value="Amazon.com Inc."/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="Europe/Paris"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="FR"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/admin"/><property name="user.language" value="fr"/><property name="swoval.tmpdir" value="/home/admin/.sbt/1.0"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="5.13.19-2-MANJARO"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.nio.ch.bugLevel" value=""/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib32:/usr/lib/openmpi:/usr/lib/libfakeroot"/><property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/><property name="jetty.git.hash" value="b881a572662e1943a14ae12e7e1207989f218b74"/><property name="user.dir" value="/home/admin/Documents/efrei/data/spark-lab-json"/><property name="os.arch" value="amd64"/><property name="idea.managed" value="true"/><property name="java.vm.info" value="mixed mode"/><property name="java.vm.version" value="11.0.14.1+10-LTS"/><property name="java.class.version" value="55.0"/>
+    </properties>
+          <testcase classname="com.tp.spark.core.Ex4InvertedIndexSpec" name="should return an inverted index" time="1.29">
+                      <failure message="an implementation is missing" type="scala.NotImplementedError">scala.NotImplementedError: an implementation is missing
+	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:288)
+	at com.tp.spark.core.Ex4InvertedIndex$.invertedIndex(Ex4InvertedIndex.scala:34)
+	at com.tp.spark.core.Ex4InvertedIndexSpec.$anonfun$new$1(Ex4InvertedIndexSpec.scala:11)
+	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.invokeWithFixture$1(FunSuiteLike.scala:184)
+	at org.scalatest.FunSuiteLike.$anonfun$runTest$1(FunSuiteLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:286)
+	at org.scalatest.FunSuiteLike.runTest(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuiteLike.runTest$(FunSuiteLike.scala:178)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.$anonfun$runTests$1(FunSuiteLike.scala:229)
+	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:393)
+	at scala.collection.immutable.List.foreach(List.scala:392)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:381)
+	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:376)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:458)
+	at org.scalatest.FunSuiteLike.runTests(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuiteLike.runTests$(FunSuiteLike.scala:228)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+	at org.scalatest.Suite.run(Suite.scala:1124)
+	at org.scalatest.Suite.run$(Suite.scala:1106)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike.$anonfun$run$1(FunSuiteLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:518)
+	at org.scalatest.FunSuiteLike.run(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuiteLike.run$(FunSuiteLike.scala:232)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:317)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:510)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:140)
+	at sbt.TestRunner.run(TestFramework.scala:155)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:318)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:278)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:318)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:318)
+	at sbt.TestFunction.apply(TestFramework.scala:330)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:435)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+</failure>
+                    </testcase>
+          <system-out><![CDATA[]]></system-out>
+          <system-err><![CDATA[]]></system-err>
+        </testsuite>
